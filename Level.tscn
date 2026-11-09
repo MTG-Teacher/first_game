@@ -20,13 +20,11 @@ radius = 14.0
 size = Vector2(40, 80)
 
 [node name="Level" type="Node2D" unique_id=910976304]
-modulate = Color(1, 0.48235294, 1, 1)
 
 [node name="Background" type="ColorRect" parent="." unique_id=1680199196]
 offset_right = 960.0
 offset_bottom = 540.0
 mouse_filter = 2
-color = Color(0.55, 0.8, 1, 1)
 
 [node name="Title" type="Label" parent="." unique_id=1797887921]
 offset_left = 20.0
@@ -65,7 +63,6 @@ color = Color(0.45, 0.28, 0.12, 1)
 polygon = PackedVector2Array(-90, -12, 90, -12, 90, 12, -90, 12)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Platform1" unique_id=1976808603]
-modulate = Color(1, 0.22352941, 1, 1)
 shape = SubResource("PlatformShape")
 
 [node name="Platform2" type="StaticBody2D" parent="." unique_id=479041152]
